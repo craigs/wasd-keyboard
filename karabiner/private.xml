@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<root>
+
+  <vkopenurldef>
+    <name>KeyCode::VK_OPEN_URL_GOOGLE</name>
+    <url>https://google.com.au/</url>
+  </vkopenurldef>
+
+  <list>
+
+    <item>
+      <name>Remap WASD Keys</name>
+      <appendix>Custom key set for wasd keyboard</appendix>
+      <identifier>remap.customKeys</identifier>
+      <autogen>--KeyToConsumer-- KeyCode::F1, ModifierFlag::NONE, ConsumerKeyCode::BRIGHTNESS_DOWN</autogen>
+      <autogen>--KeyToConsumer-- KeyCode::F2, ModifierFlag::NONE, ConsumerKeyCode::BRIGHTNESS_UP</autogen>
+      <autogen>--KeyToConsumer-- KeyCode::F5, ModifierFlag::NONE, ConsumerKeyCode::MUSIC_PREV</autogen>
+      <autogen>--KeyToConsumer-- KeyCode::F6, ModifierFlag::NONE, ConsumerKeyCode::MUSIC_PLAY</autogen>
+      <autogen>--KeyToConsumer-- KeyCode::F7, ModifierFlag::NONE, ConsumerKeyCode::MUSIC_NEXT</autogen>
+      <autogen>--KeyToConsumer-- KeyCode::F9, ModifierFlag::NONE, ConsumerKeyCode::VOLUME_MUTE</autogen>
+      <autogen>--KeyToConsumer-- KeyCode::F10, ModifierFlag::NONE, ConsumerKeyCode::VOLUME_DOWN</autogen>
+      <autogen>--KeyToConsumer-- KeyCode::F11, ModifierFlag::NONE, ConsumerKeyCode::VOLUME_UP</autogen>
+      <autogen>--KeyToConsumer-- KeyCode::F12, ModifierFlag::NONE, ConsumerKeyCode::EJECT</autogen>
+      <autogen>__KeyToKey__ KeyCode::F3, ModifierFlag::NONE, KeyCode::MISSION_CONTROL</autogen>
+      <autogen>__KeyToKey__ KeyCode::F4, ModifierFlag::NONE, KeyCode::VK_OPEN_URL_GOOGLE</autogen>
+
+      <autogen>__KeyToKey__ KeyCode::KEYPAD_CLEAR, KeyCode::VK_IOHIKEYBOARD_TOGGLE_NUMLOCK</autogen>
+      <autogen>__KeyToKey__ FROMKEYCODE_HOME, KeyCode::CURSOR_LEFT, ModifierFlag::COMMAND_L</autogen>
+      <autogen>__KeyToKey__ FROMKEYCODE_END, KeyCode::CURSOR_RIGHT, ModifierFlag::COMMAND_L</autogen>
+
+      <!-- TODO: insert keys, numpad arrows -->
+    
+    </item>
+
+  </list>
+</root>
