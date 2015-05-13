@@ -26,6 +26,5 @@ Use [karabiner](https://pqrs.org/osx/karabiner/) to remap key functions so that 
 
 I have provided my private.xml file to get you started.
 
-## Photo
 
 ![Keyboard Design](images/keyboard.jpg)
