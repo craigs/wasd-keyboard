@@ -8,6 +8,7 @@ It features ...
 - Colour coded shift function keys
 - Close as possible emulation to the standard mac keyboard layouts
 
+![Keyboard Design](images/keyboard-design.png)
 
 ## Art Files
 
@@ -25,3 +26,6 @@ Use [karabiner](https://pqrs.org/osx/karabiner/) to remap key functions so that 
 
 I have provided my private.xml file to get you started.
 
+## Photo
+
+![Keyboard Design](images/keyboard.jpg)
