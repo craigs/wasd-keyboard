@@ -28,8 +28,6 @@
       <autogen>__KeyToKey__ FROMKEYCODE_HOME, KeyCode::CURSOR_LEFT, ModifierFlag::COMMAND_L</autogen>
       <autogen>__KeyToKey__ FROMKEYCODE_END, KeyCode::CURSOR_RIGHT, ModifierFlag::COMMAND_L</autogen>
 
-      <!-- TODO: insert keys, numpad arrows -->
-    
     </item>
 
   </list>
